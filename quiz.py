@@ -97,5 +97,3 @@ elif var<=100:
     print("Your are owsem in genral knowledge.")
 else:
     print("Your are weak in genral knowledge.")
-
-
