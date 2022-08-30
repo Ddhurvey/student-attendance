@@ -1,4 +1,4 @@
-import calendar
+
 ##$ Input the data $##
 date=int(input("Please input the birth date. "  ))
 month=str(input("Please input the birth month. "  ))
