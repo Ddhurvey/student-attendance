@@ -1,5 +1,4 @@
-from email import message
-from email.errors import MessageError
+
 First_name=str(input("Please enter your first name. :- "))
 Secend_name=str(input("Please enter your secend name. :- "))
 Email_ID=(input("Please create your new email i'd but please not write @gamil.com . :- "))
@@ -16,13 +15,11 @@ def PASS():
         DOB_DOM_DOY=(DOB,DOM,DOY)
         print(DOB_DOM_DOY)
         Gender=str(input("Please input your Gender. Male/Female/Other :- "))
-        print("Congratulation you had maked a new i'd.")
+        print("Congratulation you have make a new i'd.")
         Message=int and str (input("Plese input your message. :- "))
         print("ydi aap message dubara dekna chahte hain to apna id fir se login karen.")
-        print("ydi aap message dubara dekna chahte hain to apna id fir se login karen.")
         login=input(" kya aap id login karna chahenge. :- ")
-        if login == "yes"or"Yes"or"YES":
-            
+        if login == "yes"or login =="Yes"or login =="YES":
             def login_email():
                 Email_ID_login=input("Please enter your email i'd. :- ")
                 if Email_ID_login==Email_ID:
@@ -40,8 +37,10 @@ def PASS():
                     Email_ID_login=""
                     login_email()
             login_email()
+        elif login == "no"or login =="No"or login =="NO":
+            print("Thankyou.")
         else:
-                print("Thankyou.")
+            print("Thankyou.")
     else:
         print("Your conform password is wrong.")
         Conform_password=""
