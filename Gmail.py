@@ -18,10 +18,10 @@ def PASS():
         print("Congratulation you have make a new i'd.")
         Message=int and str (input("Plese input your message. :- "))
         print("can you check your i'd.")
-        login=input(" if you check your i'd? please answered by yes/no. :- ")
+        login=input(" if you check your i'd? please answered by yes / no. :- ")
         if login == "yes"or login =="Yes"or login =="YES":
             def login_email():
-                Email_ID_login=input("Please enter your email i'd and please write _ _ _ _ _ _ _@gmail.com. :- ")
+                Email_ID_login=input("Please enter your email i'd and please write  _ _ _ _ _ _@gmail.com. :- ")
                 if Email_ID_login==Email_ID:
                     def Pass_word():
                         PASS2=input("Plese enter your password. :- ")
