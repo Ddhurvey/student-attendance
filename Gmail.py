@@ -21,7 +21,7 @@ def PASS():
         login=input(" if you check your i'd? please answered by yes/no. :- ")
         if login == "yes"or login =="Yes"or login =="YES":
             def login_email():
-                Email_ID_login=input("Please enter your email i'd and please write _ _ _ _ _ _@gmail.com. :- ")
+                Email_ID_login=input("Please enter your email i'd and please write _ _ _ _ _ _ _@gmail.com. :- ")
                 if Email_ID_login==Email_ID:
                     def Pass_word():
                         PASS2=input("Plese enter your password. :- ")
