@@ -4978,11 +4978,11 @@ import turtle
 
 
 
-# ##  list se item ko hatana or variable me badalna 
-# a=[1,2,3,4,5,6,7,8,9,0]
-# b=a.pop(5)
-# print(b)
-# print(a)
+##  list se item ko hatana or variable me badalna 
+a=[1,2,3,4,5,6,7,8,9,0]
+b=a.pop(5)
+print(b)
+print(a)
 
 
 
