@@ -20,7 +20,7 @@ def try_again():
         elif rps == "rock":
             print("Computer Win!")
         else:
-            print("Wrong Word")
+            print("Wrong Word.")
     ##rock
     if ran=="rock":
         if rps == "papar":
