@@ -1,4 +1,4 @@
-# Input for What day am I going to visit? 
+# Input for What day i am going to visit? 
 go=int(input("What day am I going to visit? If day-1 is sunday and day-2 is monday so, please write the day on number "))
 # I will go on--
 if go==1:

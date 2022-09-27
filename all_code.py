@@ -4435,7 +4435,7 @@ import turtle
 
 
 
-
+###### past tense
 
 # words=["adopt","bake","beam","confide","grill","plant","time","wish"]
 # past_tense=[]
@@ -4967,6 +4967,14 @@ import turtle
 # print(a)
 # a.remove(1)
 # print(a)
+
+
+
+
+
+
+
+
 
 
 

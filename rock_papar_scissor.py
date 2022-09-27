@@ -7,10 +7,11 @@ from secrets import choice
 def try_again():
     r=["rock","papar","scissors"]
     ran=random.choice(r)
-    rps=(input("what you need rock, papar, scissors" ))
+    rps=(input("what you need rock, papar, scissors. :- "))
     print("it's your choice",rps) 
     print("it's computer choice",ran)
     ##papar
+    ## rps == rock papar scissors
     if ran=="papar":
         if rps == "papar":
             print("Tie! Game")
